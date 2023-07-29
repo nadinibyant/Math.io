@@ -1,0 +1,49 @@
+body {
+    background-image: linear-gradient(to right, #373995, #8F92DD);
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand {
+    margin-left: 10%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.navbar-nav {
+    margin-right: 20%;
+
+}
+
+.navbar-nav li {
+    padding-right: 30%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+.btn-back {
+    width: 130%;
+    border-radius: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+main{
+    position: relative;
+    z-index: 1000;
+}
+
+nav{
+    z-index: 1001;
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.17);
+    border: 7px solid #8F92DD;
+    border-radius: 20px;
+}

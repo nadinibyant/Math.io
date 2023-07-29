@@ -1,0 +1,83 @@
+body {
+    background-image: linear-gradient(to right, #373995, #8F92DD);
+    font-family: 'Poppins', sans-serif;
+}
+
+.conten{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-brand {
+    margin-left: 10%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.navbar-nav {
+    margin-right: 20%;
+
+}
+
+.navbar-nav li {
+    padding-right: 30%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+.btn-back {
+    width: 130%;
+    border-radius: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.form-signin {
+    max-width: 350px;
+    padding: 3%;
+}
+
+.form-signin h1{
+    font-weight: 600;
+    font-size: 120%;
+    color: white;
+}
+
+.form-signin button{
+    background-color: #373995;
+    color: white;
+    font-weight: 600;
+    font-size: 90%;
+}
+
+.form-signin button:hover{
+    background-color: #8F92DD;
+    color: white;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.17);
+    border: 7px solid #8F92DD;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1000;
+}

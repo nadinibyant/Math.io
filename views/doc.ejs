@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="your-csrf-token-value">
+    <title>documentation page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/doc.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid mt-3">
+            <a class="navbar-brand mt-3 text-light" href="/home">Math.io</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mt-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/home"><button type="button"
+                                class="btn btn-light btn-back fw-semibold">Back</button></a>
+                    </li>
+                    <li class="nav-item dropdown mt-2 text-light">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" id="username">
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/profile">edit profile</a></li>
+                            <li><a class="dropdown-item" href="/logout" id="logout">sign out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="mt-5 ms-5 me-5">
+        <div class="row p-5">
+            <div class="col-4 ">
+                <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                    <nav class="nav nav-pills flex-column ">
+                        <a class="nav-link text-dark bg-white" href="#item-1">Menu</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link text-white ms-3 my-1" href="#item-1-1">Calculate</a>
+                            <a class="nav-link ms-3 my-1 text-white" href="#item-1-2">Documentation</a>
+                        </nav>
+                        <a class="nav-link text-white" href="#item-3">Profile</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ms-3 my-1 text-white" href="#item-3-1">Edit Profile</a>
+                        </nav>
+                    </nav>
+                </nav>
+            </div>
+
+            <div class="col-8 text-justify">
+                <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true"
+                    class="scrollspy-example-2" tabindex="0">
+                    <div id="item-1">
+                        <h4 class="fw-semibold">Menu</h4>
+                        <p>In the math.io application there are 2 menus that you can use, namely 'calculate' and
+                            'documentation', each of these menus has its own function that you can use</p>
+                    </div>
+                    <div id="item-1-1">
+                        <h5 class="fw-semibold">Calculate</h5>
+                        <p>The calculate menu functions for you to be able to carry out mathematical calculation
+                            operations or online calculators.</p>
+                        <br>
+                        <p>how to use calculate:</p>
+                        <ol>
+                            <li>enter the first number in the input labeled number 1</li>
+                            <li>enter the second number in the input labeled number 2</li>
+                            <li>select the operation to be executed based on the symbol of the calculation operation
+                                (ex: add (+))</li>
+                            <li>pressing the start button when finished and sure of the numbers and symbols of the
+                                calculation operations entered</li>
+                            <li>then the number entered will appear in the box above the input labeled number 1</li>
+                            <li>every time you perform a calculation search, the search will be saved in the box on the
+                                right or in the section entitled 'history'</li>
+                            <li>calculation process is complete</li>
+                        </ol>
+                    </div>
+                    <div id="item-1-2">
+                        <h5 class="fw-semibold">Documentation</h5>
+                        <p>You can use the documentation menu as a guide in using the calculator that you will use
+                            later.</p>
+                    </div>
+                    <div id="item-3">
+                        <h4 class="fw-semibold">Profile</h4>
+                        <p>You can use the profile menu or use it to view your registered personal data or account data.
+                            In this menu you can also edit your account data, you can read the guide in <a href=""
+                                class="text-dark fw-semibold">Edit Profile</a></p>
+                    </div>
+                    <div id="item-3-1">
+                        <h5 class="fw-semibold">Edit Profile</h5>
+                        <p>The edit profile menu functions to be able to make edits to data stored on the account.
+                        </p>
+                        <br>
+                        <p>how to edit account data :</p>
+                        <ol>
+                            <li>You can go to the edit profile menu by pressing your account username</li>
+                            <li>on the edit profile menu you can enter new data in the input fields that have been
+                                provided, namely username, email, and password.</li>
+                            <li>if you want to change the account password, you need to enter the old password and the
+                                new password in the respective input fields that match the label</li>
+                            <li>after all the input fields you need have been filled in, then you need to press the save
+                                button</li>
+                            <li>account data will be updated, and data stored</li>
+                            <li>if you do not change the password, it will return to the main menu, and if you change
+                                the password then you will be redirected to the login page</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#ffffff" fill-opacity="1"
+                d="M0,32L48,64C96,96,192,160,288,160C384,160,480,96,576,80C672,64,768,96,864,117.3C960,139,1056,149,1152,128C1248,107,1344,53,1392,26.7L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            const username = document.getElementById('username')
+            const response = await fetch('/username', {
+                method: 'GET'
+            })
+            const data = await response.json()
+            if (data.success) {
+                username.textContent = `${data.username}`
+            }
+
+            const btnLogout = document.getElementById('logout');
+            btnLogout.addEventListener('click', async function (event) {
+                event.preventDefault()
+
+                const form = document.createElement('form');
+                form.method = 'POST';
+                form.action = '/logout';
+
+                const csrfToken = document.querySelector('meta[name="csrf-token"]').content;
+                const csrfInput = document.createElement('input');
+                csrfInput.type = 'hidden';
+                csrfInput.name =
+                    '_csrf';
+                csrfInput.value = csrfToken;
+                form.appendChild(csrfInput);
+
+                document.body.appendChild(form);
+                form.submit();
+
+                try {
+                    const response = await fetch('/logout', {
+                        method: 'POST'
+                    });
+                    const data = await response.json();
+
+                    if (data.success) {
+                        window.location.href = '/login';
+                    } else {
+                        console.log(data.message);
+                        location.reload()
+                    }
+                } catch (error) {
+                    console.log(error);
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>
