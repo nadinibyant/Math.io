@@ -57,7 +57,5 @@ CONTOH:
 - package-lock.json  # Memastikan konsitstenasi instalasi pada paket di berbagai lingkungan
 - README.md          # Dokumentasi proyek
 
-# FAQ
-
 # Lisensi
-Proyek ini dilisensikan di bawah [Apache License 2.0](LICENSE.txt).
+Proyek ini dilisensikan di bawah [Apache License 2.0](LICENSE).
